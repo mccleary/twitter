@@ -131,3 +131,12 @@ user.findById(Theuserid)
 //   timestamp : new Date('2016-12-15'),
 //   username : 'keyur'
 // };
+
+
+
+// db.users.update({
+//   followers : ['lyn', 'keyur', 'trista', 'dom', 'jess', 'autumn'],
+//   following : ['lyn', 'keyur', 'trista', 'dom', 'jess', 'autumn']
+// }, {
+//   upsert: true
+// });
