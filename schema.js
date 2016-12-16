@@ -8,6 +8,7 @@ const user = mongoose.model('user', {
 
 const tweet = mongoose.model('tweet', {
   text : String,
+  token: String,
   timestamp : Date,
   username : String
 });

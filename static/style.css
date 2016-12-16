@@ -3,7 +3,7 @@
   width: auto;
   list-style-type: none;
   color : black;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .center{
@@ -16,13 +16,24 @@ ul.tweet{
 
 .fa-twitter {
   font-size: 25px;
-  color: darkblue;
+  color: #1da1f2;
+  padding: 10px;
 }
 .fa-globe {
   font-size: 100px;
-  color: darkblue;
+  color: #1da1f2;
 }
 
 .fa-heart {
   color: red;
+  font-size: 20px;
+}
+
+.userdate {
+  font-size: 17px;
+  color: grey;
+}
+
+p {
+  text-align: center;
 }
