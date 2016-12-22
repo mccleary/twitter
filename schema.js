@@ -1,4 +1,3 @@
-
 const user = mongoose.model('user', {
   _id : String,
   password : String,
@@ -8,7 +7,6 @@ const user = mongoose.model('user', {
 
 const tweet = mongoose.model('tweet', {
   text : String,
-  token: String,
   timestamp : Date,
   username : String
 });
@@ -57,7 +55,6 @@ user.findById(Theuserid)
 }).then(function(tweets){
   console.log(tweets);
 });
-
 
 
 
